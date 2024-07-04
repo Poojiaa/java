@@ -1,0 +1,15 @@
+import java.util.*;
+class display
+{
+ public static void main(String arg[])
+{
+ int n,i;
+ Scanner sc=new Scanner(System.in);
+ System.out.println("enter the first number");
+ n=sc.nextInt();
+ for(i=0;i<n;i++)
+{
+ System.out.println(i);
+}
+}
+}
