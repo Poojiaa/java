@@ -1,0 +1,21 @@
+import java.util.*;
+class sign
+{
+ public static void main(String arg[])
+{
+ int n;
+ Scanner sc=new Scanner(System.in);
+ System.out.println("enter number");
+ n=sc.nextInt();
+ if(n==0){
+System.out.println(" number is equal to 0: " +n);
+}
+if(n>0)
+{
+System.out.println("number is apostive number " +n);
+}
+if(n<0)
+{
+System.out.println(" number is a negative value"+n);}
+}
+}
