@@ -1,0 +1,29 @@
+import java.util.*;
+class Largestnumber
+{
+ public static void main(String arg[])
+{
+ int n,m;
+ Scanner sc=new Scanner(System.in);
+ System.out.println("enter the first number");
+ n=sc.nextInt();
+ System.out.println("enter the second number");
+ m=sc.nextInt();
+  if(m>n)
+  {
+    System.out.println("m is largest number= " +m);
+  }
+  if(m=n)
+{ 
+System.out.println("both are equal");
+ 
+}
+
+ else
+ {
+    System.out.println("n is largest number = "+n);
+    
+  }
+
+}
+}
