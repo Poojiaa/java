@@ -1,0 +1,22 @@
+import java . util.*;
+class easy2
+{
+public static void main(String arg[])
+{
+Scanner sc = new Scanner(System.in);
+String a=sc.nextLine();
+String temp="";
+ int len =a.length()-1;
+while(len>=0)
+{
+temp=temp+ a.charAt(len);
+len--;}
+if(a.equals(temp))
+{System.out.println("it is a palindrome");
+}
+else
+{
+System.out.println("it is not a palindrome");
+}
+}
+}
