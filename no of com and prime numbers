@@ -1,0 +1,23 @@
+class mm
+{
+public static void main(String arg[])
+{
+int a[]={4,7,8,11,8,5,43,7,23};
+int com=0,pri=0;
+for (int i=0;i<a.length;i++)
+{
+int c=0;
+for(int j=1;j<a[i];j++)
+{ if( a[i]%j==0)
+c++;
+}
+if(c>1)
+com++;
+else
+pri++;
+}
+System.out.println("compositenumbers"+com);
+
+System.out.println("primenumbers"+pri);
+}
+}
