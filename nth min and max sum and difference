@@ -1,0 +1,30 @@
+class nthmin
+{
+	public static void main(String[] args)
+	{
+	int a[]={14,18,90,56,34,56,22,1,66,8};
+	int len=a.length;
+	for( int i=0;i<len;i++)
+	{
+		for( int j=i+1;j<len;j++)
+		{ 
+		if(a[i]<a[j])
+			{
+			int temp=a[i];
+			a[i]=a[j];
+			a[j]=temp;
+			}
+		}
+	}
+int m=1,n=3;
+int max=a[len-m];
+int min=a[n-1];
+System.out.println(" mth maximum number:"+max);
+System.out.println("ntrh minimumnumber: "+min);
+int sum=max+min;
+int diff=max-min;
+System.out.println("sum="+sum);
+System.out.println("difference= "+diff);
+	}
+}
+
